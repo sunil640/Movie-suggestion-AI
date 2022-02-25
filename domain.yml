@@ -1,0 +1,25 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - movie
+
+actions:
+  - action_movie
+
+entities:
+  - category
+  - industry
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  
+  
+  
+

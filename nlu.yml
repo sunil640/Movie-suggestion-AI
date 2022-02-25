@@ -1,0 +1,59 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: movie
+  examples: |
+    - tell me the top 10 [bollywood](industry) [best](category) movies
+    - get me the list of top 10 [hollywood](industry) [marvel](category) movies
+    - which are the [best](category) [hollywood](industry) movies
+    - list of top five [hindi](industry) [webseries](category) of india
+    - list of [bollywood](industry) movies releasing in march [2022](category)
+    - list of [bollywood](industry) movies of [shrukh khan](category)
+    - list of [90's](year) [bollywood](industry) movies
+    - list of [90's](year) [bollywood](industry) [comedy](category) movies
+    - list of bollywood(industry) movies realising in [2022](year)
+    - give me the list of [hollywood](industry) movies realising in [2022](year)
+    - get the list of [highest box office](category) collection [bollywood] movies
+    - list of top  [hollywood](industry) [horror](category) movies
+    - list of top  [hollywood](industry) [action](category) movies
+    - list of top  [hollywood](industry) [comedy](category) movies
+    - list of best  [hollywood](industry) [sci-fi](category) movies
+    - which are the best [hollywood](category) [romantic](industry) movies
+    - list of top  [bollywood](industry) [horror](category)
+    - get the list of best [bollywood](industry) of [action](industry) movies
+    - list of top  [action](category) movies of [hollywood](industry) 
+    - which are the best [bollywood](industry) [horror](category) movies  
+    - get the list of [bollywood](industry) [comedy](category) movies
+    - list of top [South indian](indusrty) [action](category) Movies 
+    - list of top [bollywood](industry) [romantic](category) movies
+    - get the list of [south indian](industry) [comedy](category) movies
